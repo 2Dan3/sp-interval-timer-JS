@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+}
+#container *::selection{
+    background-color: initial;
+}
+#container{
+    margin: auto;
+}
+#timer, #start-stop, #lap{
+    display: block;
+    margin: 10% auto;
+    text-align: center;
+    width: 90%;
+}
+#timer label{
+    margin: auto;
+}
+#start-stop-btn{
+    padding: 20pt;
+    color: white;
+    font-size: 40pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 50%
+}
+.time{
+    color: lightskyblue;
+    font-size: 40pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+#time-wrapper{
+    font-size: 60pt;
+    display: inline-block;
+    margin: auto 30%;
+}
+#minus-wrapper{
+    /* float: inline-start; */
+    display: inline-block;
+}
+#plus-wrapper{
+    /* float: inline-end; */
+    display: inline-block;
+}
+#minus-wrapper, #plus-wrapper{
+    border-radius: 50%;
+    width: 5%;
+    padding: 5pt;
+}
+#lap-count{
+    color: lightskyblue;
+    font-size: 40pt;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
